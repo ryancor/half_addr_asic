@@ -1,0 +1,77 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1661971148
+<< obsli1 >>
+rect 1104 2159 18860 17425
+<< obsm1 >>
+rect 14 2128 19398 17456
+<< metal2 >>
+rect 18 19200 74 20000
+rect 9678 19200 9734 20000
+rect 19338 19200 19394 20000
+rect 18 0 74 800
+rect 9678 0 9734 800
+rect 19338 0 19394 800
+<< obsm2 >>
+rect 130 19144 9622 19200
+rect 9790 19144 19282 19200
+rect 20 856 19392 19144
+rect 130 800 9622 856
+rect 9790 800 19282 856
+<< metal3 >>
+rect 0 10208 800 10328
+rect 19200 9528 20000 9648
+<< obsm3 >>
+rect 800 10408 19200 17441
+rect 880 10128 19200 10408
+rect 800 9728 19200 10128
+rect 800 9448 19120 9728
+rect 800 2143 19200 9448
+<< metal4 >>
+rect 3910 2128 4230 17456
+rect 6874 2128 7194 17456
+rect 9840 2128 10160 17456
+rect 12805 2128 13125 17456
+rect 15771 2128 16091 17456
+<< obsm4 >>
+rect 4310 2128 6794 17456
+rect 7274 2128 9760 17456
+rect 10240 2128 12725 17456
+rect 13205 2128 15691 17456
+<< labels >>
+rlabel metal2 s 19338 19200 19394 20000 6 clk_in
+port 1 nsew signal input
+rlabel metal2 s 9678 0 9734 800 6 clk_out
+port 2 nsew signal output
+rlabel metal3 s 19200 9528 20000 9648 6 data_in
+port 3 nsew signal input
+rlabel metal3 s 0 10208 800 10328 6 data_out
+port 4 nsew signal output
+rlabel metal2 s 18 0 74 800 6 latch_enable_in
+port 5 nsew signal input
+rlabel metal2 s 18 19200 74 20000 6 latch_enable_out
+port 6 nsew signal output
+rlabel metal2 s 9678 19200 9734 20000 6 scan_select_in
+port 7 nsew signal input
+rlabel metal2 s 19338 0 19394 800 6 scan_select_out
+port 8 nsew signal output
+rlabel metal4 s 3910 2128 4230 17456 6 vccd1
+port 9 nsew power input
+rlabel metal4 s 9840 2128 10160 17456 6 vccd1
+port 9 nsew power input
+rlabel metal4 s 15771 2128 16091 17456 6 vccd1
+port 9 nsew power input
+rlabel metal4 s 6874 2128 7194 17456 6 vssd1
+port 10 nsew ground input
+rlabel metal4 s 12805 2128 13125 17456 6 vssd1
+port 10 nsew ground input
+<< properties >>
+string FIXED_BBOX 0 0 20000 20000
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 263532
+string GDS_FILE /work/runs/wokwi/results/finishing/scan_wrapper_341533740987581011.magic.gds
+string GDS_START 82934
+<< end >>
+

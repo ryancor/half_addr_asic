@@ -1,0 +1,21 @@
+
+27. Printing statistics.
+
+=== scan_wrapper_341533740987581011 ===
+
+   Number of wires:                 54
+   Number of wire bits:             54
+   Number of public wires:          23
+   Number of public wire bits:      23
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 50
+     sky130_fd_sc_hd__buf_2          3
+     sky130_fd_sc_hd__conb_1        31
+     sky130_fd_sc_hd__dlxtp_1        7
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__sdfxtp_1       8
+
+   Chip area for module '\scan_wrapper_341533740987581011': 450.432000
+
